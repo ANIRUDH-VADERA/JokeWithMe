@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #131313;
+  color: #fff;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url("./font/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: GilroySemiBold;
+  src: url("./font/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: GilroyMedium;
+  src: url("./font/Gilroy-Medium.ttf");
+}
